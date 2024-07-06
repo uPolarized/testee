@@ -1,0 +1,92 @@
+body{
+    background-image: url('./fotos/inicial.jpg');
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main{
+    background: transparent;
+    max-width: 520px;
+}
+
+.titulo{ 
+    font-size: 35px;
+    text-shadow: 2px 2px red;
+}
+
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 20px; 
+    display: flex; 
+    justify-content:space-between;
+    align-items: center; 
+}
+
+
+
+header ul{
+    text-shadow: 2px 2px red;
+}
+
+
+header nav ul {
+    list-style-type: none; 
+    display: flex; 
+}
+
+
+header nav ul li {
+    margin: 10px; 
+}
+
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+
+
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(189, 204, 187);
+    text-shadow: 2px 2px red;
+    background-color: gray;
+    max-width: 500px ;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(233, 222, 222);
+    text-shadow: 2px 2px rgb(214, 25, 25);
+    
+    text-align: justify;
+    max-width: 520px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 230, 230);
+}
+
+.novopapel{
+    background-image: url('./fotos/gatopreto2.jpg');
+}
+
+.novopapel2{
+    background-image: url('./fotos/gatofeliz.jpg');
+}
+
+.novopapel3{
+    background-image: url('./fotos/gatitopianista.jpg');
+}
+
+.novopapel4{
+    background-image: url('./fotos/inicial.jpg');
+}
